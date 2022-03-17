@@ -1,0 +1,24 @@
+{
+  "name": "pushnotificationserverworker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yass525/Push-Notification.git"
+  },
+  "author": "yassine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yass525/Push-Notification/issues"
+  },
+  "homepage": "https://github.com/Yass525/Push-Notification#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "web-push": "^3.4.5"
+  }
+}
